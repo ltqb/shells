@@ -1,6 +1,6 @@
+### test file 测试文件
 ```
-# test file
-[jialesun:~/jiale/]$ cat test.txt                                                                                                                                                                                          (devlop✱) 
+[jialesun:~/jiale/]$ cat test.txt                     
 1
 2
 3
@@ -8,15 +8,14 @@
 5
 6
 ```
-### change column num to one row
-### 修改列变成一行
+### change column num to one row 修改列变成一行
 
 ```
-[jialesun:~/jiale/]$ cat test.txt|tr '\n' '|'                                                                                                                                                                              (devlop✱) 
+[jialesun:~/jiale/]$ cat test.txt|tr '\n' '|'  
 1|2|3|4|5|6|
 ```
-# anthoer method (另外一个方法)
+### another method 另外一个方法
 ```
-[jialesun:~/jiale/]$ cat test.txt|xargs|sed 's/ /|/g'                                                                                                                                                                      (devlop✱) 
+[jialesun:~/jiale/]$ cat test.txt|xargs|sed 's/ /|/g'  
 1|2|3|4|5|6
 ```
