@@ -1,6 +1,8 @@
 ##### 1.find more than 90 days files in path
 ```
 find ${PATH} -type f -atime +90 >> m_t_90_day_files.txt 2>&1 &
+
+find /data/shpx/data/ -type f -atime +90 -size +1G
 ```
 
 ##### 2.how to sum a cloumn numbers
